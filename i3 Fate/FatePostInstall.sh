@@ -10,6 +10,8 @@ useradd -m -g users -G wheel,storage,power,audio (add user here, remove parenthe
 # uncomment %wheel ALL=(ALL) ALL
 
 # if installed xdg-user-dirs, uncomment below
+# to install
+# sudo pacman -S xdg-user-dirs
 # xdg-user-dirs-update
 
 # xorg
