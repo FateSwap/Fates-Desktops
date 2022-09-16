@@ -9,3 +9,5 @@ Prerequisites: Just need an arch linux install or arch based distro with git
 
 Install: just make a folder and git clone the repo. Use chmod +x on all the scripts you plan to use.
 Then execute via ./Scriptname.sh
+
+Notes: if Btop++ script fails try running with sudo. It did the trick for me.
