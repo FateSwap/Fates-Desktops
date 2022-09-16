@@ -11,3 +11,11 @@ Install: just make a folder and git clone the repo. Use chmod +x on all the scri
 Then execute via ./Scriptname.sh
 
 Notes: if Btop++ script fails try running with sudo. It did the trick for me.
+
+For wallpapers I would suggest to git clone
+
+https://github.com/makccr/wallpapers
+
+https://github.com/FrenzyExists/wallpapers
+
+Both is about 2000 or so wallpapers of all types 
