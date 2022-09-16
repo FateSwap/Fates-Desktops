@@ -1,5 +1,5 @@
-# Fatei3-gaps
-This is an i3 setup script. It should have all the basics to get you up and running in i3.
+# Fates-Desktops
+These are setup scripts for different dektops. It should have all the basics to get you up and running in what ever you choose.
 
 IMPORTANT: For any of the script pertaining to installing a program like paru
 YOU NEED to chown the file and change the owner to your user or you will get 
