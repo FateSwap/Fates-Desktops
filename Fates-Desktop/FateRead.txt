@@ -1,0 +1,37 @@
+
+This is not a script like the others. This is quick instrustions on
+some addition things you may want to add but aren't mandatory.
+
+udisk2 with udiskie is installed, enable by adding to i3 config 
+
+exec_always udisk2
+exec_always udiskie
+
+For lightdm, I would suggest adding 
+
+theme-name = Arc-Dark
+icon-theme-name = Papirus-Dark
+background = #2f343f
+
+This changes the theme to dark, uses the papirus icons and changes the background to a grey
+Add these in their corresponding spots under [greeter]
+
+These scripts use i3status for the bar. I would suggest bumblebee-status from the aur.
+Installed by running
+
+paru -S bumblebee-status
+or 
+yay -S bumblebee-status
+
+If you want to use rofi. Install via pacman -S and uncomment the rofi part in i3 config
+
+Would suggest autotiling
+Installed by running 
+
+paru -S autotiling
+or
+yay -S autotiling
+
+
+
+
