@@ -3,7 +3,7 @@
 # use this when arch is installed and update works, in the ttyl console
 
 # adds user to basic groups
-useradd -m -g users -G wheel,storage,power,audio (add user here, remove parenthesis)
+sudo useradd -m -g users -G wheel,storage,power,audio (add user here, remove parenthesis)
 
 # you need to visudo and enable root access you self via
 # EDITOR=nano visudo
@@ -58,9 +58,9 @@ sudo pacman -S arc-gtk-theme
 sudo pacman -S papirus-icon-theme
 
 # network manager
-pacman -S dhcpcd networkmanager network-manager-applet
-systemctl enable dhcpcd
-systemctl enable NetworkManager
+sudo pacman -S dhcpcd networkmanager network-manager-applet
+sudo systemctl enable dhcpcd
+sudo systemctl enable NetworkManager
 
 # tools
 sudo pacman -S dmenu thunar alacritty nitrogen
