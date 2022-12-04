@@ -54,6 +54,7 @@ sudo pacman -S noto-fonts ttf-ubuntu-font-family ttf-dejavu ttf-freefont ttf-lib
 sudo pacman -S firefox vlc zsh 
 
 # lxappearance with arc theme and papirus icons (change if you prefer something else)
+sudo pacman -S lxappearance
 sudo pacman -S arc-gtk-theme
 sudo pacman -S papirus-icon-theme
 
