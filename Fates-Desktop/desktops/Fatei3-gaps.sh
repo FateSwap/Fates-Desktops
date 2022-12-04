@@ -41,7 +41,7 @@ sudo pacman -S neofetch htop
 # sudo systemctl enable fstrim.timer
 
 # usb
-sudo pacman -S udisk2 udiskie
+sudo pacman -S udisks2 udiskie
 
 # bluetooth if you have it, uncomment (can change bluetooth manager just change blueman to prefered)
 # sudo pacman -S bluez bluez-utils blueman
