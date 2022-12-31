@@ -28,7 +28,7 @@ sudo systemctl enable lightdm
 
 # extra useful packages
 sudo pacman -S iw wpa_supplicant dialog intel-ucode git reflector lshw
-sudo pacman -S wget pulseaudio alsa-utils alsa-plugins pavucontrol xdg
+sudo pacman -S wget pulseaudio alsa-utils alsa-plugins pavucontrol
 sudo pacman -S neofetch htop
 
 # if on laptop, uncomment below
